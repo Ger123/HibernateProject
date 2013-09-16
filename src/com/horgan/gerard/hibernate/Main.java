@@ -10,8 +10,8 @@ public class Main {
 		
 		Student_Info student = new Student_Info();
 		
-		student.setName("Hoggy");
-		student.setRollNo(1);
+		student.setName("Eoin");
+		student.setRollNo(3);
 		
 		SessionFactory sessionFactory = new AnnotationConfiguration().configure().buildSessionFactory();
 		Session session = sessionFactory.openSession();
